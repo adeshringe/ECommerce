@@ -1,7 +1,7 @@
 server:
   port: 8081
 
-
-
-
-
+spring:
+  data:
+    mongodb:
+      database: e_commerce

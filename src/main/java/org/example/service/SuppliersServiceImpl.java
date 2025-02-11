@@ -55,7 +55,7 @@ public class SuppliersServiceImpl implements SuppliersService{
 
         if(suppliersRepo.findById(supplierId).isPresent()){
             suppliersRepo.deleteById(supplierId);
-            System.out.println("Supplier " + supplierId + " is delected");
+            System.out.println("Supplier " + supplierId + " is deleted");
         }
         else{
             System.out.println("Supplier not found");
